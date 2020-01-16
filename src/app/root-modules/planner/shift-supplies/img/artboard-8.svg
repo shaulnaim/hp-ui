@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="64" height="64" rx="8"></rect>
+        <filter x="-20.3%" y="-17.2%" width="140.6%" height="140.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8" transform="translate(8.000000, 6.000000)">
+            <g id="bg-copy-97">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="#005BB1" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke-opacity="0.7" stroke="#CCE5FF" stroke-width="2" stroke-linejoin="square" fill-opacity="0.3" fill="url(#linearGradient-1)" fill-rule="evenodd" x="1" y="1" width="62" height="62" rx="8"></rect>
+            </g>
+            <text id="." font-family="Roboto-Regular, Roboto" font-size="32" font-weight="normal" letter-spacing="0.7" fill="#D8EBFF">
+                <tspan x="27" y="47">.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

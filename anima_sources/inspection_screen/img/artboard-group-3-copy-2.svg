@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="36px" viewBox="0 0 30 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-2" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" letter-spacing="0.347826087" fill="#CCCCCC">
+            <tspan x="9.74796196" y="26">K</tspan>
+        </text>
+        <filter x="-54.5%" y="-31.6%" width="209.1%" height="163.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3-Copy-2">
+            <path d="M15,35 C22.7319865,35 29,28.7319865 29,21 C29,16.0969594 24.5808139,9.68079386 15.6579326,1.88523375 C15.281086,1.55600569 14.7189038,1.55600701 14.3420661,1.88523492 C5.41918277,9.68079864 1,16.0969612 1,21 C1,28.7319865 7.2680135,35 15,35 Z" id="Oval" stroke="#CCCCCC" stroke-width="2" fill-opacity="0.2" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <g id="k" fill="#CCCCCC" fill-opacity="1">
+                <use filter="url(#filter-3)" xlink:href="#text-2"></use>
+                <use xlink:href="#text-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1080px" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50.563059%" cy="50.0179431%" fx="50.563059%" fy="50.0179431%" r="110.788151%" gradientTransform="translate(0.505631,0.500179),scale(0.562500,1.000000),rotate(1.026936),scale(1.000000,0.632404),translate(-0.505631,-0.500179)" id="radialGradient-1">
+            <stop stop-color="#10559F" offset="0%"></stop>
+            <stop stop-color="#000C19" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bg" fill="url(#radialGradient-1)" x="0" y="0" width="1920" height="1080"></rect>
+    </g>
+</svg>

@@ -1,0 +1,43 @@
+@import "./../hp-ui-elements.scss";
+
+div {
+  @include horizontal-container;
+}
+
+@mixin toggle {
+  @include kedem-body-primary-small;
+  height: 56px;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  display: grid;
+  cursor: pointer;
+}
+
+.left {
+  @include toggle;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.right {
+  @include toggle;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.regular {
+  border: solid 2px $color-icons;
+  background-blend-mode: normal, overlay;
+  background-image: linear-gradient(to bottom, $color-primary-2, rgba(216, 235, 255, 0) 25%),
+    radial-gradient(circle at 50% 95%, $color-primary-2 0%, rgba(216, 235, 255, 0) 17%),
+    linear-gradient(to bottom, #1c5089, #1c5089);
+}
+
+.selected {
+  box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.5), 0 3px 30px 0 rgba(0, 0, 0, 0.5), inset 0 1px 10px 4px #87c1ff;
+  background-blend-mode: normal, overlay, normal;
+  background-image: linear-gradient(to bottom, $color-primary-2, rgba(216, 235, 255, 0) 25%),
+    radial-gradient(circle at 50% 95%, $color-primary-2 0%, rgba(216, 235, 255, 0) 17%),
+    linear-gradient(to bottom, $color-icons 0%, rgba(115, 183, 255, 0)), linear-gradient(to bottom, #3e7dc2, #3e7dc2);
+}

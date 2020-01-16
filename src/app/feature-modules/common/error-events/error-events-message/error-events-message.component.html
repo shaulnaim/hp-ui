@@ -1,0 +1,6 @@
+<div *ngIf="_ErrorEvent" id="error-event-meesage">
+  <button id="dismissErrorEvent" (click)="clearLastEvent()">x</button>
+  <div id="Event">Error Event: {{_ErrorEvent.Name}}</div>
+  <div id="errorMessage">{{_ErrorEvent.UiDescription}} {{_ErrorEvent.Parameters}}</div>
+  <div id="errorTimestamp">Timestamp : {{_ErrorEvent.Time}}</div>
+</div>

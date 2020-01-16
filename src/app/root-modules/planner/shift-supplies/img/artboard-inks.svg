@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="122px" height="37px" viewBox="0 0 122 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.00559544%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#27FC19" offset="0%"></stop>
+            <stop stop-color="#27FC19" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15,36 C23.2842712,36 30,29.2842712 30,21 C30,15.7249543 25.4386189,9.10233744 16.3158567,1.1321495 L16.3158492,1.13215809 C15.5621708,0.473699804 14.4378116,0.473699871 13.6841333,1.13215825 C4.56137777,9.10234228 0,15.7249562 0,21 C0,29.2842712 6.71572875,36 15,36 Z" id="path-2"></path>
+        <text id="text-3" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" fill="#D0FFCD">
+            <tspan x="9.65234375" y="28">G</tspan>
+        </text>
+        <filter x="-54.5%" y="-31.6%" width="209.1%" height="163.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="1.00559544%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#A564FF" offset="0%"></stop>
+            <stop stop-color="#A564FF" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15,36 C23.2842712,36 30,29.2842712 30,21 C30,15.7249543 25.4386189,9.10233744 16.3158567,1.1321495 L16.3158492,1.13215809 C15.5621708,0.473699804 14.4378116,0.473699871 13.6841333,1.13215825 C4.56137777,9.10234228 0,15.7249562 0,21 C0,29.2842712 6.71572875,36 15,36 Z" id="path-6"></path>
+        <text id="text-7" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" fill="#E4D0FF">
+            <tspan x="9.91015625" y="28">V</tspan>
+        </text>
+        <filter x="-54.5%" y="-31.6%" width="209.1%" height="163.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15,36 C23.2842712,36 30,29.2842712 30,21 C30,15.7249543 25.4386189,9.10233744 16.3158567,1.1321495 L16.3158492,1.13215809 C15.5621708,0.473699804 14.4378116,0.473699871 13.6841333,1.13215825 C4.56137777,9.10234228 0,15.7249562 0,21 C0,29.2842712 6.71572875,36 15,36 Z" id="path-10"></path>
+        <text id="text-11" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" letter-spacing="0.347826087" fill="#444444">
+            <tspan x="7.73624321" y="28">W</tspan>
+        </text>
+        <filter x="-40.0%" y="-31.6%" width="180.0%" height="163.2%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="inks">
+            <g id="green">
+                <g id="Oval" fill-rule="nonzero">
+                    <use fill-opacity="0.5" fill="#10FF00" xlink:href="#path-2"></use>
+                    <path stroke="#10FF00" stroke-width="2" d="M15,35 C22.7319865,35 29,28.7319865 29,21 C29,16.0969594 24.5808139,9.68079386 15.6579326,1.88523375 C15.281086,1.55600569 14.7189038,1.55600701 14.3420661,1.88523492 C5.41918277,9.68079864 1,16.0969612 1,21 C1,28.7319865 7.2680135,35 15,35 Z" stroke-linejoin="square" fill="url(#linearGradient-1)" fill-rule="evenodd"></path>
+                </g>
+                <g id="g" fill="#D0FFCD" fill-opacity="1">
+                    <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+                    <use xlink:href="#text-3"></use>
+                </g>
+            </g>
+            <g id="violet" transform="translate(46.000000, 1.000000)">
+                <g id="Oval" fill-rule="nonzero">
+                    <use fill-opacity="0.5" fill="#974CFF" xlink:href="#path-6"></use>
+                    <path stroke="#974CFF" stroke-width="2" d="M15,35 C22.7319865,35 29,28.7319865 29,21 C29,16.0969594 24.5808139,9.68079386 15.6579326,1.88523375 C15.281086,1.55600569 14.7189038,1.55600701 14.3420661,1.88523492 C5.41918277,9.68079864 1,16.0969612 1,21 C1,28.7319865 7.2680135,35 15,35 Z" stroke-linejoin="square" fill="url(#linearGradient-5)" fill-rule="evenodd"></path>
+                </g>
+                <g id="v" fill="#E4D0FF" fill-opacity="1">
+                    <use filter="url(#filter-8)" xlink:href="#text-7"></use>
+                    <use xlink:href="#text-7"></use>
+                </g>
+            </g>
+            <g id="white" transform="translate(92.000000, 1.000000)">
+                <g id="Oval" fill-rule="nonzero">
+                    <use fill-opacity="0.5" fill="#FFFFFF" xlink:href="#path-10"></use>
+                    <path stroke="#FFFFFF" stroke-width="2" d="M15,35 C22.7319865,35 29,28.7319865 29,21 C29,16.0969594 24.5808139,9.68079386 15.6579326,1.88523375 C15.281086,1.55600569 14.7189038,1.55600701 14.3420661,1.88523492 C5.41918277,9.68079864 1,16.0969612 1,21 C1,28.7319865 7.2680135,35 15,35 Z" stroke-linejoin="square" fill="url(#linearGradient-9)" fill-rule="evenodd"></path>
+                </g>
+                <g id="w" fill="#444444" fill-opacity="1">
+                    <use filter="url(#filter-12)" xlink:href="#text-11"></use>
+                    <use xlink:href="#text-11"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

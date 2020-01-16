@@ -1,0 +1,7 @@
+<div class="alert alert-primary" role="alert">
+  <strong>{{meStationResult?.MEStationKey.ID}} </strong> : {{getCalibrationStatus()}}
+  <hr>
+  <li id="meStationResultPressMessages" *ngFor="let pressMessage of meStationResult?.CalibrationResult.ResultMessages">
+    {{pressMessage.Message}}
+  </li> 
+</div>

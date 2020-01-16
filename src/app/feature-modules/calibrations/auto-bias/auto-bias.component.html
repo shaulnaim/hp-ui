@@ -1,0 +1,32 @@
+<div class="auto-bias-container-div">
+  <div class="auto-bias-operation-div">
+      <operation-control [operationAdapter]="autoBiasOperationAdapter" operationButtonGroup="printGroup" operationButtonClassName="print-operation-button" stopOperationButtonClassName="stop-print-operation-button"></operation-control>
+      <div [ngSwitch]="operation?.CalibrationResult.Status">
+        <div class="alert alert-light" role="alert" *ngSwitchCase="calibrationStatusValues.None" id="calibrationStatusNone"></div>
+        <div class="alert alert-success" role="alert" *ngSwitchCase="calibrationStatusValues.Succeeded" id="calibrationStatusSucceeded"><strong>Calibration Succeeded</strong></div>
+        <div class="alert alert-danger" role="alert" *ngSwitchCase="calibrationStatusValues.Failed" id="calibrationStatusFailed"><strong>Calibration Failed</strong></div>
+        <div class="alert alert-warning" role="alert" *ngSwitchCase="calibrationStatusValues.SucceededWithWarning" id="calibrationStatusSucceededWithWarning"><strong>Calibration Succeeded With Warning</strong></div>
+        <div class="alert alert-danger" role="alert" *ngSwitchCase="calibrationStatusValues.FailedWithWarning" id="calibrationStatusFailedWithWarning"><strong>Calibration Failed With Warning</strong></div>
+        <div class="alert alert-secondary" role="alert" *ngSwitchCase="calibrationStatusValues.DidNotConverge" id="calibrationStatusDidNotConverge"><strong>Calibration Did Not Converge</strong></div>
+      </div>
+      <li id="autoBiasPressMessages" class="list-group-item list-group-item-action list-group-item-danger" *ngFor="let pressMessage of operation?.CalibrationResult?.ResultMessages">
+          <strong>{{pressMessage.Message}}</strong>
+      </li>
+  </div>
+
+  <div class="custom-control custom-checkbox" *ngFor="let meStation of meStations">
+    <input class="custom-control-input" type="checkbox" [(ngModel)]="meStation.IsSelected" (change)="onToggleMEStationSelection()" id="{{meStation.MEStationEntityKey.ID}}" name="{{meStation.MEStationEntityKey.ID}}">
+    <label class="custom-control-label" for="{{meStation.MEStationEntityKey.ID}}">
+      {{meStation.MEStationEntityKey.ID}}
+    </label>
+  </div>
+
+  <div *ngFor="let meStationResult of operation?.Data.Result.MEStations">
+    <calibration-me-station-result-control [meStationResult]="meStationResult"></calibration-me-station-result-control>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" id="cancel" class="btn btn-secondary" (click)="cancel()" [disabled]="!operation?.CancelAvailability.IsAvailable" data-dismiss="modal">Cancel</button>
+    <button type="button" id="commit" class="btn btn-primary"   (click)="commit()" [disabled]="!operation?.CommitAvailability.IsAvailable" data-dismiss="modal">Commit</button>
+  </div>
+</div>

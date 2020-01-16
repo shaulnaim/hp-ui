@@ -1,0 +1,80 @@
+
+@mixin repsonsive-container{
+  display: flex;
+}
+  
+@mixin horizontal-container{
+    @include repsonsive-container;
+}
+
+@mixin vertical-container{
+  @include repsonsive-container;
+  flex-direction: column;
+}
+
+@mixin body-state {
+  font-size: 18px;
+  color: $color-blue;
+}
+
+@mixin title-1 {
+  font-size: 26px;
+  font-weight: 500;
+  color: $color-primary-1;
+}
+
+@mixin label-70 {
+  font-size: 14px;
+  color: $color-primary-1;
+}
+
+@mixin kedem-body-primary-small {
+  font-size: 16px;
+  letter-spacing: 0.35px;
+  color: $color-primary-1;
+}
+
+@mixin kedem-body-primary-medium-bold {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.39px;
+  color: $color-primary-1;
+}
+
+@mixin kedem-body-warning-small {
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  color: $color-orange;
+}
+  
+@mixin label-100 {
+  height: auto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color-primary-1;
+}
+
+@mixin kedem-indication-primary-x-large {
+  font-size: 88px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 1.91px;
+  color: #c1dfff;
+}
+
+@mixin kedem-headline-headline-4 {
+  font-size: 40px;
+  letter-spacing: 0.87px;
+  color: $color-primary-1;
+}
+
+@mixin kedem-headline-1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: $color-primary-1;
+}

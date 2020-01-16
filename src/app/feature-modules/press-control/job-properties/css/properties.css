@@ -1,0 +1,2314 @@
+/* Job properties screen css - imported from Anima */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+
+.properties {
+  width               : 100%;
+  min-width           : 1920px;
+  height              : 100vh;
+  min-height          : 1080px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255,255,255,0.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.properties .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1080px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .bg .bgscreen {
+  background-color    : rgba(0, 0, 0, 0.3);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .bg .bg2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -400px;
+  height              : calc(100.00% + 799px);
+  width               : calc(100.00% - 940px);
+  position            : absolute;
+  margin              : 0;
+  left                : 471px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.properties .bg .bg11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 90px;
+  height              : 167px;
+  width               : calc(100.00% - 122px);
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.2;
+}
+.properties .bg .sep3 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 3.12%;
+  top                 : 23.80%;
+  height              : 0px;
+  width               : 93.65%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+}
+.properties .bg .sep1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 3.12%;
+  top                 : 33.52%;
+  height              : 0px;
+  width               : 93.65%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+}
+.properties .bg .sep2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 3.12%;
+  bottom              : 18.06%;
+  height              : 0px;
+  width               : 93.65%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+}
+.properties .bg .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 2.76%;
+  bottom              : 7.59%;
+  height              : 10.74%;
+  width               : 23.44%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .bg .btn-view .bg3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23.28%;
+  height              : 48.28%;
+  width               : 44.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .bg .btn-view .cancel {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.48%;
+  height              : 30px;
+  width               : calc(100.00% - 267px);
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .bg .btn-view .bg12 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 100%;
+  width               : 57.33%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .bg .btn-view .save {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.48%;
+  height              : 30px;
+  width               : calc(100.00% - 267px);
+  position            : absolute;
+  margin              : 0;
+  left                : 229px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 111px;
+  height              : 126px;
+  width               : 1738px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .image {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 2.38%;
+  height              : 95.24%;
+  width               : 11.05%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .image .mask3 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .image .job3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .namefiledidle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20.63%;
+  height              : 38.10%;
+  width               : calc(100.00% - 1474px);
+  position            : absolute;
+  margin              : 0;
+  left                : 216px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .namefiledselected12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20.63%;
+  height              : 38.10%;
+  width               : calc(100.00% - 1474px);
+  position            : absolute;
+  margin              : 0;
+  left                : 216px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.properties .header .ledomedo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30.95%;
+  height              : 21px;
+  width               : 231px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .name {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14.29%;
+  width               : calc(100.00% - 1512px);
+  position            : absolute;
+  margin              : 0;
+  left                : 230px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.properties .header .a1h36min {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30.95%;
+  height              : 21px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 504px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .esttime {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14.29%;
+  width               : calc(100.00% - 1567px);
+  position            : absolute;
+  margin              : 0;
+  left                : 502px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.properties .header .low {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30.95%;
+  height              : 21px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : 737px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .priority {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14.29%;
+  width               : calc(100.00% - 1599px);
+  position            : absolute;
+  margin              : 0;
+  left                : 737px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.properties .header .a250720191230 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30.95%;
+  height              : 21px;
+  width               : 175px;
+  position            : absolute;
+  margin              : 0;
+  left                : 943px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .due {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14.29%;
+  width               : calc(100.00% - 1599px);
+  position            : absolute;
+  margin              : 0;
+  left                : 940px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.properties .header .totalcoverage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14.29%;
+  width               : calc(100.00% - 1512px);
+  position            : absolute;
+  margin              : 0;
+  left                : 1143px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.properties .header .white {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 11.97%;
+  bottom              : 1.59%;
+  height              : 28.57%;
+  width               : 5.35%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .white .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 18px);
+  height              : 36px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .white .w {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.30%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(67, 67, 67, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .white .a98 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 13.89%;
+  height              : 21px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .magenta {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 17.38%;
+  bottom              : 1.59%;
+  height              : 28.57%;
+  width               : 5.47%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .magenta .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 18px);
+  height              : 36px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .magenta .m {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.21%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(234, 162, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.properties .header .magenta .a100 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 13.89%;
+  height              : 21px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .cyan {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 22.78%;
+  bottom              : 1.59%;
+  height              : 28.57%;
+  width               : 5.58%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .cyan .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 18px);
+  height              : 36px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .cyan .c {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.19%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(191, 235, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.properties .header .cyan .a74 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 13.89%;
+  height              : 21px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .yellow {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 28.37%;
+  bottom              : 0px;
+  height              : 30.16%;
+  width               : 5.70%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .yellow .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 94.74%;
+  width               : 30.30%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.03%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .yellow .y {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(255, 253, 224, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.properties .header .yellow .a22 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 18.42%;
+  height              : 21px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .green {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 28.37%;
+  top                 : 25.40%;
+  height              : 28.57%;
+  width               : 5.52%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .green .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .green .g {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.25%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(207, 255, 204, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.properties .header .green .a50 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 13.89%;
+  height              : 21px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .violet {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 11.97%;
+  top                 : 25.40%;
+  height              : 28.57%;
+  width               : 5.52%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .violet .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .violet .v {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.25%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(227, 207, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.properties .header .violet .a100 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 13.89%;
+  height              : 21px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .white1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5.98%;
+  bottom              : 1.59%;
+  height              : 28.57%;
+  width               : 5.35%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .white1 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 18px);
+  height              : 36px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .white1 .w {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.30%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(67, 67, 67, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .white1 .a98 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 13.89%;
+  height              : 21px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .violet1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5.98%;
+  top                 : 25.40%;
+  height              : 28.57%;
+  width               : 5.52%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .violet1 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .violet1 .v {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.25%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(227, 207, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.properties .header .violet1 .a100 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 13.89%;
+  height              : 21px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .white2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 1.59%;
+  height              : 28.57%;
+  width               : 5.35%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .white2 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 18px);
+  height              : 36px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .white2 .w {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.30%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(67, 67, 67, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .white2 .a98 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 13.89%;
+  height              : 21px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .violet2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 25.40%;
+  height              : 28.57%;
+  width               : 5.52%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .violet2 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .violet2 .v {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.25%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(227, 207, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.properties .header .violet2 .a100 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 13.89%;
+  height              : 21px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .orange {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 17.38%;
+  top                 : 25.40%;
+  height              : 28.57%;
+  width               : 5.52%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .orange .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .orange .o {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5.21%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(255, 234, 204, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .orange .a48 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 13.89%;
+  height              : 21px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .black {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 22.78%;
+  top                 : 25.40%;
+  height              : 28.57%;
+  width               : 5.52%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .black .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .header .black .k {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.25%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(204, 204, 204, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .header .black .a32 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 13.89%;
+  height              : 21px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .tubs {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 255px;
+  height              : 116px;
+  width               : 1080px;
+  position            : absolute;
+  margin              : 0;
+  left                : 390px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .tubs .fill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 22.22%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .tubs .job {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39.66%;
+  height              : 19px;
+  width               : calc(100.00% - 932px);
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .tubs .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23.28%;
+  height              : 48.28%;
+  width               : 16.85%;
+  position            : absolute;
+  margin              : 0;
+  left                : 19.44%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .tubs .color {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39.66%;
+  height              : 19px;
+  width               : calc(100.00% - 932px);
+  position            : absolute;
+  margin              : 0;
+  left                : 227px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .tubs .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23.28%;
+  height              : 48.28%;
+  width               : 16.85%;
+  position            : absolute;
+  margin              : 0;
+  left                : 36.11%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .tubs .steprepet {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39.66%;
+  height              : 19px;
+  width               : calc(100.00% - 932px);
+  position            : absolute;
+  margin              : 0;
+  left                : 407px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .tubs .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 30.37%;
+  top                 : 23.28%;
+  height              : 48.28%;
+  width               : 16.85%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .tubs .print {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39.66%;
+  height              : 19px;
+  width               : calc(100.00% - 932px);
+  position            : absolute;
+  margin              : 0;
+  left                : 587px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .tubs .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 13.70%;
+  top                 : 23.28%;
+  height              : 48.28%;
+  width               : 16.85%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .tubs .finish {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39.66%;
+  height              : 19px;
+  width               : calc(100.00% - 932px);
+  position            : absolute;
+  margin              : 0;
+  left                : 767px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .tubs .fill5 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -2.78%;
+  top                 : 23.28%;
+  height              : 48.28%;
+  width               : 16.67%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .tubs .action1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39.66%;
+  height              : 19px;
+  width               : calc(100.00% - 932px);
+  position            : absolute;
+  margin              : 0;
+  left                : 946px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .sepsseplightgrad {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 449px;
+  height              : 256px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 518px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .sepsseplightgrad .sep1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.properties .namefiledselected {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 465px;
+  height              : 48px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .all {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 478px;
+  height              : auto;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .printrange {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 439px;
+  height              : auto;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.properties .mohawk80eggshell {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 478px;
+  height              : auto;
+  width               : 393px;
+  position            : absolute;
+  margin              : 0;
+  left                : 560px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .substrate {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 439px;
+  height              : auto;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 558px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.properties .namefiledselected1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 465px;
+  height              : 48px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 298px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .namefiledselected2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 465px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 298px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .namefiledselected3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 465px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 446px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .a123 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 478px;
+  height              : auto;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 364px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .rectangle {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 482px;
+  height              : 14px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 470px;
+  border-radius       : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .rectangle1 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 482px;
+  height              : 14px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  border-radius       : 1px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.properties .rectangle2 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 482px;
+  height              : 14px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 470px;
+  border-radius       : 1px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.properties .namefiledselected4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 569px;
+  height              : 48px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1000px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .namefiledselected5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 569px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1000px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .namefiledselected6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 569px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1148px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .a1231 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 582px;
+  height              : auto;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1066px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .rectangle3 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 586px;
+  height              : 14px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1171px;
+  border-radius       : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .rectangle4 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 586px;
+  height              : 14px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1023px;
+  border-radius       : 1px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.properties .rectangle5 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 586px;
+  height              : 14px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1171px;
+  border-radius       : 1px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.properties .copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 439px;
+  height              : auto;
+  width               : 185px;
+  position            : absolute;
+  margin              : 0;
+  left                : 311px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.properties .namefiledselected7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 570px;
+  height              : 48px;
+  width               : 408px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .namefiledselected8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 570px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .namefiledselected9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 570px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 446px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .a1232 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 583px;
+  height              : auto;
+  width               : 192px;
+  position            : absolute;
+  margin              : 0;
+  left                : 194px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .rectangle6 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 587px;
+  height              : 14px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 470px;
+  border-radius       : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .rectangle7 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 587px;
+  height              : 14px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 109px;
+  border-radius       : 1px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.properties .rectangle8 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 587px;
+  height              : 14px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 470px;
+  border-radius       : 1px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.properties .lenghtm {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 544px;
+  height              : auto;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.properties .jobdetails {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 387px;
+  height              : auto;
+  width               : 1739px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.52px;
+  line-height         : 28.0px;
+}
+.properties .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 481px;
+  height              : 16px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 246px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.properties .sepsseplightgrad1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 449px;
+  height              : 256px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1432px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .sepsseplightgrad1 .sep1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.properties .namefiledselected10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 465px;
+  height              : 48px;
+  width               : 408px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1000px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .keeponpressfor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 478px;
+  height              : auto;
+  width               : 182px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1016px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .retainedjobafterp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 439px;
+  height              : auto;
+  width               : 396px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1014px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.properties .standard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 478px;
+  height              : auto;
+  width               : 182px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1474px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .jobtype {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 439px;
+  height              : auto;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1472px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.properties .loremipsumissimpl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 582px;
+  height              : auto;
+  width               : 365px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1474px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 21.0px;
+}
+.properties .dfe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 544px;
+  height              : auto;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1472px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.properties .mask1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 481px;
+  height              : 16px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1380px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.properties .namefiledselected11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 569px;
+  height              : 48px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1212px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .days {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 582px;
+  height              : auto;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1228px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 234, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.properties .mask2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 586px;
+  height              : 16px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1380px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.properties .sepsseplightgrad2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 449px;
+  height              : 256px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 975px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .sepsseplightgrad2 .sep1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.properties .bg1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 67px;
+  height              : 51px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1755px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .sep {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 77px;
+  height              : 32px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1821px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.properties .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 77px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1837px;
+  -ms-transform       : rotate(45deg); /* IE 9 */
+  -webkit-transform   : rotate(45deg); /* Chrome, Safari, Opera */
+  transform           : rotate(45deg);
+}
+.properties .group .rectangle9 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.properties .group .rectangle11 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.properties .icon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 81px;
+  height              : 23px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1772px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-valign-text-middle {
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
+}

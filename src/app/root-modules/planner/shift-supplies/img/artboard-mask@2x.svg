@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,16 L0,15 L4.12510506,15.0006171 C1.66507715,13.6360619 0,11.0124808 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 L0,16 Z M8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 C11.8659932,15 15,11.8659932 15,8 C15,4.13400675 11.8659932,1 8,1 Z M8,4 C10.209139,4 12,5.790861 12,8 C12,10.209139 10.209139,12 8,12 C5.790861,12 4,10.209139 4,8 C4,5.790861 5.790861,4 8,4 Z M8,5 C6.34314575,5 5,6.34314575 5,8 C5,9.65685425 6.34314575,11 8,11 C9.65685425,11 11,9.65685425 11,8 C11,6.34314575 9.65685425,5 8,5 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#FFC238" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

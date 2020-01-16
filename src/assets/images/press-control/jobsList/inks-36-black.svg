@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </linearGradient>
+        <text id="c" fill="#CCC" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" letter-spacing=".348">
+            <tspan x="12.748" y="26">K</tspan>
+        </text>
+        <filter id="b" width="209.1%" height="163.2%" x="-54.5%" y="-31.6%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#a)" fill-opacity=".2" fill-rule="nonzero" stroke="#CCC" stroke-width="2" d="M18 35c7.732 0 14-6.268 14-14 0-4.903-4.42-11.32-13.342-19.115a1 1 0 0 0-1.316 0C8.42 9.681 4 16.097 4 21c0 7.732 6.268 14 14 14z"/>
+        <g fill="#CCC">
+            <use filter="url(#b)" xlink:href="#c"/>
+            <use xlink:href="#c"/>
+        </g>
+    </g>
+</svg>

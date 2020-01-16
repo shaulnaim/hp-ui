@@ -1,0 +1,19 @@
+<div class="jobs-list">
+  <div class="jobs-list__jobs">
+    <ul id="held-q" [hidden]="!isHeldTabSelected">
+      <li class="jobs-list__item" *ngFor="let job of jobsInHeldQ">
+          <app-job id="job-in-held" [job]="job"></app-job>
+      </li>
+    </ul>
+    <ul id="retained-q" [hidden]="isHeldTabSelected">
+        <li class="jobs-list__item" *ngFor="let job of jobsInRetainedQ">
+            <app-job id="job-in-retained" [job]="job"></app-job>
+        </li>
+      </ul>
+  </div>
+  <div class="jobs-list__sep"></div>
+  <div class="jobs-list__tabs">
+    <app-hp-toggle-control id="tabs" leftTitle="Held" rightTitle="Retain" (leftSelectionChange)="toggleTabSelection($event)"></app-hp-toggle-control>
+  </div>
+
+</div>

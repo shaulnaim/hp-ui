@@ -1,0 +1,5 @@
+<div #ctrl id="progressContainer">
+    <div id="bar" class="progress-control__bar-bg" [style.width.px]="controlWidth"></div>
+    <div id="progress" class="progress-control__progress" [style.width.px]="controlWidth * percentage"></div>
+    <div #oval id="currentValue" class="progress-control__oval" [style.margin-left.px]="controlWidth * percentage - oval.offsetWidth"></div>
+</div>

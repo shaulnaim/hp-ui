@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="48px" viewBox="0 0 126 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="95.0665772%" fx="50%" fy="95.0665772%" r="32.0016111%" gradientTransform="translate(0.500000,0.950666),scale(0.380952,1.000000),rotate(90.000000),scale(1.000000,5.416660),translate(-0.500000,-0.950666)" id="radialGradient-1">
+            <stop stop-color="#66B1FF" offset="0.0554265203%"></stop>
+            <stop stop-color="#72B7FF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="25.4110577%" id="linearGradient-2">
+            <stop stop-color="#D8EBFF" offset="0%"></stop>
+            <stop stop-color="#D8EBFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="0" y="0" width="126" height="48" rx="8"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="supplies">
+            <g id="fill">
+                <use fill="#1C5089" xlink:href="#path-3"></use>
+                <use fill-opacity="0.4" fill="url(#radialGradient-1)" xlink:href="#path-3"></use>
+                <rect stroke="#73B7FF" stroke-width="2" stroke-linejoin="square" fill-opacity="0.3" fill="url(#linearGradient-2)" x="1" y="1" width="124" height="46" rx="8"></rect>
+            </g>
+            <text id="Supplies" opacity="0.900000036" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" letter-spacing="0.35" fill="#D8EBFF">
+                <tspan x="32" y="32">Supplies</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

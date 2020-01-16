@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400px" height="304px" viewBox="0 0 1400 304" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D8EBFF" offset="0%"></stop>
+            <stop stop-color="#D8EBFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="40" y="40" width="1320" height="224" rx="8"></rect>
+        <filter x="-4.5%" y="-26.8%" width="109.1%" height="153.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.847058824   0 0 0 0 0.921568627   0 0 0 0 1  0 0 0 0.8 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg-selected-copy-2">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill-opacity="0.3" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <rect stroke="#D8EBFF" stroke-width="2" stroke-linejoin="square" fill-opacity="0.15" fill="#007BFF" fill-rule="evenodd" x="41" y="41" width="1318" height="222" rx="8"></rect>
+        </g>
+    </g>
+</svg>

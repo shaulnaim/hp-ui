@@ -1,0 +1,28 @@
+<div class="printed-job" id="NowPrinting">
+  <img src="/assets/images/printing/print-progress/mock-thumbnail.png" id="imgThumbnail" />
+
+  <div class="printed-job__details">
+    <label class="printed-job__status" id="jobStatus">{{state}}</label>
+    <label class="printed-job__name" id="jobName">{{jobName}}</label>
+    <app-hp-progress-control id="progress" class="printed-job__progress" [percentage]="percentage" width="256">
+    </app-hp-progress-control>
+    <div class="printed-job__time">
+      <label class="printed-job__printed-time" id="currentTime">{{currentTime}}</label>
+      <label class="printed-job__time-separator">/</label>
+      <label class="printed-job__total-time" id="totalTime">{{totalTime}}</label>
+      <label class="printed-job__remaining-time" id="remainingTime">{{remainingTime}}</label>
+    </div>
+  </div>
+
+  <div class="printed-job__docking-buffer"></div>
+
+  <div class="printed-job__progress-in-meters">
+    <div class="printed-job__progress-in-meters-details">
+      <label class="printed-job__meters-printed" id="metersPrinted">{{printProgressEntity?.Printed}}</label>
+      <label class="printed-job__meters-total">/</label>
+      <label class="printed-job__meters-total" id="totalMeters">{{printProgressEntity?.Total}}</label>
+    </div>
+    <div class="printed-job__docking-buffer"></div>
+    <label class="printed-job__length-in-meters-label">Length (m)</label>
+  </div>
+</div>

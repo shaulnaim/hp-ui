@@ -1,0 +1,5 @@
+<div *ngIf="error" id="exceptionControl">
+  <img class="error-style" src="/assets/images/general/error-icon.svg"/>
+  <div id="errorSource">Exception component source: {{getExceptionComponentSource()}}</div>
+  <div id="errorMessage">{{_error.message}}</div>
+</div>

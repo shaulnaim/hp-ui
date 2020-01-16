@@ -1,0 +1,38 @@
+<div class="manual-lph-focus-container-div">
+    <div class="manual-lph-focus-operation-div">
+        <operation-control [operationAdapter]="lphFocusOperationAdapter" operationButtonGroup="printGroup" operationButtonClassName="print-operation-button" stopOperationButtonClassName="stop-print-operation-button"></operation-control>
+        <div [ngSwitch]="operation?.CalibrationResult.Status">
+          <div class="alert alert-light" role="alert" *ngSwitchCase="calibrationStatusValues.None" id="calibrationStatusNone"></div>
+          <div class="alert alert-success" role="alert" *ngSwitchCase="calibrationStatusValues.Succeeded" id="calibrationStatusSucceeded"><strong>Calibration Succeeded</strong></div>
+          <div class="alert alert-danger" role="alert" *ngSwitchCase="calibrationStatusValues.Failed" id="calibrationStatusFailed"><strong>Calibration Failed</strong></div>
+          <div class="alert alert-warning" role="alert" *ngSwitchCase="calibrationStatusValues.SucceededWithWarning" id="calibrationStatusSucceededWithWarning"><strong>Calibration Succeeded With Warning</strong></div>
+          <div class="alert alert-danger" role="alert" *ngSwitchCase="calibrationStatusValues.FailedWithWarning" id="calibrationStatusFailedWithWarning"><strong>Calibration Failed With Warning</strong></div>
+          <div class="alert alert-secondary" role="alert" *ngSwitchCase="calibrationStatusValues.DidNotConverge" id="calibrationStatusDidNotConverge"><strong>Calibration Did Not Converge</strong></div>
+        </div>
+    </div>
+
+    <div id="lphUserInputData" class="custom-control custom-checkbox" *ngFor="let lph of lphs" (change)="onUpdateLphSelection()">
+      <div name="lphInputDataDiv">
+        <input class="custom-control-input" type="checkbox" [(ngModel)]="lph.IsSelected"  id="{{lph.LphEntityKey.ID}}" name="{{lph.LphEntityKey.ID}}">
+        <label class="custom-control-label" for="{{lph.LphEntityKey.ID}}">
+          {{lph.LphEntityKey.ID}}
+        </label>
+        <select id="lphFocusScanBasePosition" name="lphFocusScanBasePosition" [(ngModel)]="lph.LphFocusScanBasePosition">
+          <option *ngFor="let lphFocusScanPosition of lphFocusScanBasePositionValues.values();">
+            {{lphFocusScanPosition}}
+          </option>
+        </select>
+      </div>
+      <div id="lphFocusCalculationData" name="lphFocusCalculationData" *ngIf="operation?.CalibrationResult.Status == calibrationStatusValues.Succeeded">
+        <label for="optimalPrintPositionFront">Optimal print position front</label>
+        <input id="optimalPrintPositionFront" name="optimalPrintPositionFront" type="text" [(ngModel)]="lph.LphFocusCalculationData.OptimalPrintPositionFront">
+        <label for="optimalPrintPositionRear">Optimal print position rear</label>
+        <input id="optimalPrintPositionRear" name="optimalPrintPositionRear" type="text"  [(ngModel)]="lph.LphFocusCalculationData.OptimalPrintPositionRear">
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <button type="button" id="cancel" class="btn btn-secondary" (click)="cancel()" [disabled]="!operation?.CancelAvailability.IsAvailable" data-dismiss="modal">Cancel</button>
+      <button type="button" id="commit" class="btn btn-primary"   (click)="commit()" [disabled]="!operation?.CommitAvailability.IsAvailable" data-dismiss="modal">Commit</button>
+    </div>
+  </div>

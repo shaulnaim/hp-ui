@@ -1,0 +1,4 @@
+<div>
+  <div id="left-toggle" [class]="isLeftSelected ? 'left selected' : 'left regular'" (click)="toggleSelection()">{{leftTitle}}</div>
+  <div id="right-toggle" [class]="isLeftSelected ? 'right regular' : 'right selected'" (click)="toggleSelection()">{{rightTitle}}</div>
+</div>

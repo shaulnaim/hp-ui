@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="503px" height="974px" viewBox="0 0 503 974" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M48,30 L483,30 L483,30 L483,944 L48,944 C43.581722,944 40,940.418278 40,936 L40,38 C40,33.581722 43.581722,30 48,30 Z" id="path-1"></path>
+        <filter x="-13.5%" y="-5.5%" width="122.6%" height="110.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-10" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <path stroke="#2C97FF" stroke-width="1" d="M482.5,943.5 L482.5,30.5 L48,30.5 C43.8578644,30.5 40.5,33.8578644 40.5,38 L40.5,936 C40.5,940.142136 43.8578644,943.5 48,943.5 L482.5,943.5 Z" stroke-linejoin="square" fill="#16416F" fill-rule="evenodd"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+<div class="stir-container-div">
+  <div class="stir-operation-div" id="stir-operation" aria-orientation="horizontal">
+          <div class="margin-top-20 row">
+              <span class="col-sm-7">Heat build number of blanket cycles:</span>
+              <span class="col-sm-4" aria-orientation="horizontal">
+                <input id="heat-build-num-cycles-input" [(ngModel)]="heatBuildBlanketCycles" (blur)="heatBuildNumOfCyclesOnBlur(heatBuildBlanketCycles)" placeholder="Number Of Cycles" type="number"  >
+              </span>
+            </div>
+            <div class="margin-top-20 row">
+              <span class="col-sm-7">Clean build number of blanket cycles:</span>
+                <span class="col-sm-4 padding-bottom-30" aria-orientation="horizontal">
+                  <input id="clean-build-num-cycles-input" [(ngModel)]="cleanBuildBlanketCycles" (blur)="cleanBuildNumOfCyclesOnBlur(cleanBuildBlanketCycles)" placeholder="Number Of Cycles" type="number">
+                </span>
+              </div>
+              <div class="nav-item dropdown padding-bottom-30" class="row">
+                  <label class="col-sm-4 margin-top-6" >Select Bid Station: </label>
+                  <label class="nav-link dropdown-toggle col-sm-4" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{selectedBidStationID}}
+                  </label>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <label class="dropdown-item"  id="StationKey{{stationKey}}Btn" *ngFor="let stationKey of bidstationKeys" (click)=onSelectedBidStationClick(stationKey)> {{ stationKey }} </label>
+                  </div>
+                </div>
+      <div class="padding-left-20"><operation-control [operationAdapter]="stiROperationAdapter" operationButtonGroup="printGroup" operationButtonClassName="print-operation-button" stopOperationButtonClassName="stop-print-operation-button"></operation-control>
+</div>
+
+
+      <div [ngSwitch]="operation?.CalibrationResult.Status">
+        <div class="alert alert-light" role="alert" *ngSwitchCase="calibrationStatusValues.None" id="calibrationStatusNone"></div>
+        <div class="alert alert-success" role="alert" *ngSwitchCase="calibrationStatusValues.Succeeded" id="calibrationStatusSucceeded">Calibration Succeeded</div>
+        <div class="alert alert-danger" role="alert" *ngSwitchCase="calibrationStatusValues.Failed" id="calibrationStatusFailed">Calibration Failed</div>
+        <div class="alert alert-warning" role="alert" *ngSwitchCase="calibrationStatusValues.SucceededWithWarning" id="calibrationStatusSucceededWithWarning">Calibration Succeeded With Warning</div>
+        <div class="alert alert-danger" role="alert" *ngSwitchCase="calibrationStatusValues.FailedWithWarning" id="calibrationStatusFailedWithWarning">Calibration Failed With Warning</div>
+        <div class="alert alert-secondary" role="alert" *ngSwitchCase="calibrationStatusValues.DidNotConverge" id="calibrationStatusDidNotConverge">Calibration Did Not Converge</div>
+      </div>
+      <li id="stirPressMessaes" class="list-group-item list-group-item-action list-group-item-secondary" *ngFor="let pressMessage of operation?.CalibrationResult?.ResultMessages">
+        {{pressMessage.Message}}
+      </li>
+  </div>
+  <div class="modal-footer">
+    <button type="button" id="cancel" class="btn btn-secondary" (click)="cancel()" [disabled]="!operation?.CancelAvailability.IsAvailable" data-dismiss="modal">Cancel</button>
+    <button type="button" id="commit" class="btn btn-primary"   (click)="commit()" [disabled]="!operation?.CommitAvailability.IsAvailable" data-dismiss="modal">Commit</button>
+  </div>
+</div>

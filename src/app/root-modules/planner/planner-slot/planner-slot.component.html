@@ -1,0 +1,57 @@
+<div class="job">
+  <div class="job__container" (focus)="showToolBar(true)" (focusout)="showToolBar(false)" tabindex="0">
+
+    <div class="job__properties">
+      <div id="thumbnail" class="job__thumbnail">
+        <img id="thumbnail" src="/assets/images/press-control/jobsList/thumnail-1.png" />
+      </div>
+      <div id="name" class="job__name">{{plannerSlotEntity.JobDetails.Name}}</div>
+
+      <app-hp-label-icon-control id="length" class="job__length" [text]="plannerSlotEntity.JobDetails.Length"
+        iconSrc="/assets/images/press-control/jobsList/length.svg"></app-hp-label-icon-control>
+
+      <app-hp-label-icon-control id="substrate" class="job__substrate" [text]="plannerSlotEntity.SubstrateName"
+        iconSrc="/assets/images/press-control/jobsList/substrate-out.svg"></app-hp-label-icon-control>
+
+      <app-hp-label-icon-control id="inks" class="job__inks" text="6"
+        iconSrc="/assets/images/press-control/jobsList/ink.svg">
+      </app-hp-label-icon-control>
+
+      <app-hp-label-icon-control id="time" class="job__time" text="1h 36min"
+        iconSrc="/assets/images/press-control/jobsList/time.svg">
+      </app-hp-label-icon-control>
+    </div>
+
+    <div id="instructions">
+      <div class="job__instruction">
+        <app-planner-instruction></app-planner-instruction>
+      </div>
+      <div class="job__instruction">
+        <app-planner-instruction></app-planner-instruction>
+      </div>
+    </div>
+
+    <div class="job__tool-bar" id="tool-bar" [hidden]="!isToolBarDisplayed">
+      <img id="proprties" (click)="showJobProperties(true)"
+        src="/assets/images/press-control/jobsList/tool-bar-properties.svg" />
+      <img id="preview" src="/assets/images/press-control/jobsList/tool-bar-preview.svg" />
+      <img id="held" src="/assets/images/press-control/jobsList/tool-bar-held.svg" />
+      <img id="export" src="/assets/images/press-control/jobsList/tool-bar-export.svg" />
+      <img id="delete" src="/assets/images/press-control/jobsList/tool-bar-delete.svg" />
+    </div>
+
+  </div>
+
+  <div class="job__inks">
+    <img src="/assets/images/press-control/jobsList/inks-36-white.svg" />
+    <img src="/assets/images/press-control/jobsList/inks-36-cyan.svg" />
+    <img src="/assets/images/press-control/jobsList/inks-36-magenta.svg" />
+  </div>
+
+
+  <div class="job-properties-window" [hidden]="!isJobPropertiesDisplayed">
+    <app-job-properties id="job-properties" [jobProperties]="plannerSlotEntity" (onClose)="showJobProperties(false)"></app-job-properties>
+  </div>
+
+
+</div>

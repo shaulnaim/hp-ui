@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="112px" viewBox="0 0 23 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5992D0" offset="0%"></stop>
+            <stop stop-color="#4277AF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="55.8975611%" y1="2.77555756e-15%" x2="55.8975611%" y2="96.9086985%" id="linearGradient-2">
+            <stop stop-color="#000C19" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000C19" offset="100%"></stop>
+        </linearGradient>
+        <path d="M16,0 L23,0 L23,0 L23,112 L16,112 C7.163444,112 1.082166e-15,104.836556 0,96 L0,16 C-1.082166e-15,7.163444 7.163444,1.623249e-15 16,0 Z" id="path-3"></path>
+        <polygon id="path-4" points="14.3831513 57.1194631 9.28163087 64 8.39901478 62.8095956 13.5005352 55.9290587 8.50421259 49.1904044 9.38682868 48 15.270936 55.9360296 14.3883199 57.1264341"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="grabber">
+            <g id="bg">
+                <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                <path stroke="#2C92FF" stroke-width="1" d="M22.5,111.5 L22.5,0.5 L16,0.5 C7.43958638,0.5 0.5,7.43958638 0.5,16 L0.5,96 C0.5,104.560414 7.43958638,111.5 16,111.5 L22.5,111.5 Z" stroke-linejoin="square" fill-opacity="0.19" fill="url(#linearGradient-2)"></path>
+            </g>
+            <mask id="mask-5" fill="white">
+                <use xlink:href="#path-4"></use>
+            </mask>
+            <use id="Mask" fill="#73B7FF" fill-rule="nonzero" transform="translate(11.834975, 56.000000) rotate(-180.000000) translate(-11.834975, -56.000000) " xlink:href="#path-4"></use>
+        </g>
+    </g>
+</svg>

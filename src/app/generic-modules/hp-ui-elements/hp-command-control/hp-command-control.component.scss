@@ -1,0 +1,28 @@
+button{
+    border: none;
+    outline:none;
+    background-position:center;   
+    width: 100px;
+    height: 100px;
+}
+
+.regular-label {
+    font-family: sans-serif;
+    font-size: 18px;
+    display: inline-block;
+  }
+  
+.go-to-standby-command-button{
+    background: url('/assets/images/press-control/get-ready/GetReady_up.svg') no-repeat;
+    background-position:center; 
+}
+
+.go-to-standby-command-button:active{
+    background: url('/assets/images/press-control/get-ready/GetReady_dwn.svg') no-repeat;
+    background-position:center;   
+}
+
+.go-to-standby-command-button:disabled{
+    background: url('/assets/images/press-control/get-ready/GetReady_dis.svg') no-repeat;
+    background-position:center;   
+}

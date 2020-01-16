@@ -1,0 +1,12 @@
+
+    <!-- Nav tabs -->
+<ul class="nav nav-tabs row stir-cleaner-container" role="tablist">
+    <li class="active col-sm-4 margin-bottom-right-10"><a href="#stir" role="tab" data-toggle="tab">StiR</a></li>
+    <li class="margin-bottom-right-10"><a href="#cleaner" role="tab" data-toggle="tab">Cleaner</a></li>
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="stir"><app-stir #stir (onClose)="onClose.emit()"></app-stir ></div>
+    <div class="tab-pane" id="cleaner"><app-cleaner #cleaner (onClose)="onClose.emit()" ></app-cleaner></div>
+  </div>
+

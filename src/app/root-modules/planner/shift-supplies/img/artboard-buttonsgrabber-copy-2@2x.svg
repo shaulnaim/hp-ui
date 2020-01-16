@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="40px" viewBox="0 0 21 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M8,0 L20,0 C20.5522847,-1.01453063e-16 21,0.44771525 21,1 L21,39 C21,39.5522847 20.5522847,40 20,40 L8,40 C3.581722,40 5.41083001e-16,36.418278 0,32 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="buttons/grabber-copy-2">
+            <g id="bg">
+                <use fill="#021830" xlink:href="#path-2"></use>
+                <use fill-opacity="0.3" fill="#FFD200" xlink:href="#path-2"></use>
+                <path stroke-opacity="0.5" stroke="#FFD200" stroke-width="1" d="M8,0.5 C3.85786438,0.5 0.5,3.85786438 0.5,8 L0.5,32 C0.5,36.1421356 3.85786438,39.5 8,39.5 L20,39.5 C20.2761424,39.5 20.5,39.2761424 20.5,39 L20.5,1 C20.5,0.723857625 20.2761424,0.5 20,0.5 L8,0.5 Z" stroke-linejoin="square" fill-opacity="0.2" fill="url(#linearGradient-1)"></path>
+            </g>
+            <g id="dot" opacity="0.600000024" transform="translate(7.000000, 12.000000)" fill="#FFD200">
+                <circle id="Oval" cx="6" cy="1" r="1"></circle>
+                <circle id="Oval-Copy" cx="6" cy="6" r="1"></circle>
+                <circle id="Oval-Copy-2" cx="6" cy="11" r="1"></circle>
+                <circle id="Oval" cx="1" cy="1" r="1"></circle>
+                <circle id="Oval-Copy" cx="1" cy="6" r="1"></circle>
+                <circle id="Oval-Copy-2" cx="1" cy="11" r="1"></circle>
+                <circle id="Oval-Copy-2" cx="6" cy="16" r="1"></circle>
+                <circle id="Oval-Copy-2" cx="1" cy="16" r="1"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

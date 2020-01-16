@@ -1,0 +1,2265 @@
+/* Shift supplies css - imported from Anima */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,400');
+
+
+.supplies {
+  width               : 100%;
+  min-width           : 482px;
+  height              : 100vh;
+  min-height          : 815px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255,255,255,0.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.supplies .suppliescon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 798px;
+  width               : 498px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .suppliestime {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 798px;
+  width               : 498px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 156px;
+  height              : 521px;
+  width               : 374px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 173px;
+  height              : 445px;
+  width               : 331px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .magenta {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 9.66%;
+  width               : 99.40%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .magenta .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 18px);
+  height              : 36px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .magenta .m {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 23.26%;
+  height              : 19px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(234, 162, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.supplies .listbytime .magenta .magenta1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 20.06%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.02%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbytime .magenta .a2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.30%;
+  bottom              : 0px;
+  height              : 38px;
+  width               : 5.78%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(216, 249, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.7px;
+  line-height         : 38.0px;
+}
+.supplies .listbytime .magenta .a0930 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 16px;
+  width               : 11.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 24.32%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 16.0px;
+}
+.supplies .listbytime .magenta .time1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 37.21%;
+  width               : 4.86%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.02%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .magenta .time1 .ovalcopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .magenta .time1 .timeicon1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.00%;
+  top                 : 25.00%;
+  height              : 31.25%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .magenta .time1 .timeicon1 .rectangle11 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .magenta .time1 .timeicon1 .rectanglecopy1 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  bottom              : -40.00%;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 40.00%;
+  border-radius       : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.supplies .listbytime .green {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 0px;
+  height              : 9.66%;
+  width               : 99.40%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .green .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.65%;
+  height              : 83.72%;
+  width               : 9.12%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .green .g {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 20.93%;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(207, 255, 204, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.supplies .listbytime .green .green1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 13.37%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.02%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbytime .green .a21 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.30%;
+  bottom              : 0px;
+  height              : 38px;
+  width               : 5.78%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(216, 249, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.7px;
+  line-height         : 38.0px;
+}
+.supplies .listbytime .green .a1305 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 16px;
+  width               : 11.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 24.32%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 16.0px;
+}
+.supplies .listbytime .green .time2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 37.21%;
+  width               : 4.86%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.02%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .green .time2 .ovalcopy22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .green .time2 .timeicon2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.00%;
+  top                 : 25.00%;
+  height              : 31.25%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .green .time2 .timeicon2 .rectangle21 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .green .time2 .timeicon2 .rectanglecopy2 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  bottom              : -40.00%;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 40.00%;
+  border-radius       : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.supplies .listbytime .violet {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 36.40%;
+  height              : 9.66%;
+  width               : 99.40%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .violet .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 4.65%;
+  height              : 83.72%;
+  width               : 9.12%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .violet .v {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 20.93%;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(227, 207, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.supplies .listbytime .violet .violet1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 13.07%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.02%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbytime .violet .a22 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.30%;
+  bottom              : 0px;
+  height              : 38px;
+  width               : 5.78%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(216, 249, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.7px;
+  line-height         : 38.0px;
+}
+.supplies .listbytime .violet .a1050 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 16px;
+  width               : 11.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 24.32%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 16.0px;
+}
+.supplies .listbytime .violet .time3 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 37.21%;
+  width               : 4.86%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.02%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .violet .time3 .ovalcopy23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .violet .time3 .timeicon3 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.00%;
+  top                 : 25.00%;
+  height              : 31.25%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .violet .time3 .timeicon3 .rectangle3 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .violet .time3 .timeicon3 .rectanglecopy3 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  bottom              : -40.00%;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 40.00%;
+  border-radius       : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.supplies .listbytime .white {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 35.73%;
+  height              : 9.66%;
+  width               : 99.40%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .white .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 2.33%;
+  height              : 36px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .white .w {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 18.60%;
+  height              : 19px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.22%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(67, 67, 67, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbytime .white .magenta1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 20.06%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.02%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbytime .white .a3 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.30%;
+  bottom              : 0px;
+  height              : 38px;
+  width               : 5.78%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(216, 249, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.7px;
+  line-height         : 38.0px;
+}
+.supplies .listbytime .white .a1130 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 16px;
+  width               : 11.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : 24.32%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 16.0px;
+}
+.supplies .listbytime .white .time4 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 37.21%;
+  width               : 4.86%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.02%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .white .time4 .ovalcopy24 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .white .time4 .timeicon4 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.00%;
+  top                 : 25.00%;
+  height              : 31.25%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .white .time4 .timeicon4 .rectangle4 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .white .time4 .timeicon4 .rectanglecopy4 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  bottom              : -40.00%;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 40.00%;
+  border-radius       : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.supplies .listbytime .substratein1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18.20%;
+  height              : 9.66%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .substratein1 .icon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12.79%;
+  height              : 74.42%;
+  width               : 9.67%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .substratein1 .substratelongname {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 50.76%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbytime .substratein1 .a7 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 0px;
+  height              : 38px;
+  width               : 5.74%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(216, 249, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.7px;
+  line-height         : 38.0px;
+}
+.supplies .listbytime .substratein1 .a1005 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 16px;
+  width               : 11.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.08%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 16.0px;
+}
+.supplies .listbytime .substratein1 .time5 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 37.21%;
+  width               : 4.83%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .substratein1 .time5 .ovalcopy25 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .substratein1 .time5 .timeicon5 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.00%;
+  top                 : 25.00%;
+  height              : 31.25%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .substratein1 .time5 .timeicon5 .rectangle5 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .substratein1 .time5 .timeicon5 .rectanglecopy5 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  bottom              : -40.00%;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 40.00%;
+  border-radius       : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.supplies .listbytime .substratein2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 17.30%;
+  height              : 9.66%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .substratein2 .icon2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12.79%;
+  height              : 74.42%;
+  width               : 9.67%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.supplies .listbytime .substratein2 .export1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12.79%;
+  height              : 74.42%;
+  width               : 9.67%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .substratein2 .substratelongname1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 50.76%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbytime .substratein2 .a4 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 0px;
+  height              : 38px;
+  width               : 5.74%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(216, 249, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.7px;
+  line-height         : 38.0px;
+}
+.supplies .listbytime .substratein2 .a1200 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 16px;
+  width               : 11.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.08%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 16.0px;
+}
+.supplies .listbytime .substratein2 .time6 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 37.21%;
+  width               : 4.83%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .substratein2 .time6 .ovalcopy26 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .substratein2 .time6 .timeicon6 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.00%;
+  top                 : 25.00%;
+  height              : 31.25%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .substratein2 .time6 .timeicon6 .rectangle6 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbytime .substratein2 .time6 .timeicon6 .rectanglecopy6 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  bottom              : -40.00%;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 40.00%;
+  border-radius       : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.supplies .listbyconsumables {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 218px;
+  height              : 526px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.supplies .listbyconsumables .consumables {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.30%;
+  bottom              : 0px;
+  height              : 8.17%;
+  width               : 97.31%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .consumables .consumablescontent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.69%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .consumables .consumablescontent .bid {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 8.02%;
+  position            : absolute;
+  margin              : 0;
+  left                : 15.74%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbyconsumables .consumables .consumablescontent .a2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.31%;
+  bottom              : 0px;
+  height              : 38px;
+  width               : 5.86%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(216, 249, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.7px;
+  line-height         : 38.0px;
+}
+.supplies .listbyconsumables .consumables .consumablescontent .a0800 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 16px;
+  width               : 11.42%;
+  position            : absolute;
+  margin              : 0;
+  left                : 23.15%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 16.0px;
+}
+.supplies .listbyconsumables .consumables .consumablescontent .icons16icons16time {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 37.21%;
+  width               : 4.94%;
+  position            : absolute;
+  margin              : 0;
+  left                : 15.74%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .consumables .consumablescontent .icons16icons16time .ovalcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .consumables .consumablescontent .icons16icons16time .timeicon {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.00%;
+  top                 : 25.00%;
+  height              : 31.25%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .consumables .consumablescontent .icons16icons16time .timeicon .rectangle21 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .consumables .consumablescontent .icons16icons16time .timeicon .rectanglecopy {
+  background-color    : rgba(115, 183, 255, 1.0);
+  bottom              : -40.00%;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 40.00%;
+  border-radius       : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.supplies .listbyconsumables .consumables .consumablescontent .icons16icons16substratein {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31.40%;
+  height              : 37.21%;
+  width               : 5.25%;
+  position            : absolute;
+  margin              : 0;
+  left                : -0.31%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .consumables .consumablescontent .icons16icons16substratein .icon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.supplies .listbyconsumables .inks {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54.37%;
+  width               : 99.10%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.45%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .magenta {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 19.94%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .a21 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 1.75%;
+  height              : 38px;
+  width               : 5.74%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(216, 249, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.7px;
+  line-height         : 38.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .a08001 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9.44%;
+  height              : 16px;
+  width               : 11.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.08%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 16.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9.44%;
+  height              : 5.59%;
+  width               : 4.83%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time1 .ovalcopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time1 .timeicon1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.00%;
+  top                 : 25.00%;
+  height              : 31.25%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time1 .timeicon1 .rectangle5 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time1 .timeicon1 .rectanglecopy1 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  bottom              : -40.00%;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 40.00%;
+  border-radius       : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36magenta {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.40%;
+  height              : 12.59%;
+  width               : 10.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36magenta .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36magenta .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 18px);
+  height              : 36px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 15px);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36magenta .m {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 10px);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(234, 162, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .green {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28.32%;
+  height              : 19px;
+  width               : 13.29%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .a22 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 30.07%;
+  height              : 38px;
+  width               : 5.74%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(216, 249, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.7px;
+  line-height         : 38.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .a08002 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37.76%;
+  height              : 16px;
+  width               : 11.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.08%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 16.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37.76%;
+  height              : 5.59%;
+  width               : 4.83%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time2 .ovalcopy22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time2 .timeicon2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.00%;
+  top                 : 25.00%;
+  height              : 31.25%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time2 .timeicon2 .rectangle6 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time2 .timeicon2 .rectanglecopy2 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  bottom              : -40.00%;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 40.00%;
+  border-radius       : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36green {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30.07%;
+  height              : 12.59%;
+  width               : 10.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36green .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36green .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 83.33%;
+  position            : absolute;
+  margin              : 0;
+  left                : 8.33%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36green .g {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 9px);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(207, 255, 204, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .violet {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 36.71%;
+  height              : 19px;
+  width               : 12.99%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .a23 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 28.32%;
+  height              : 38px;
+  width               : 5.74%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(216, 249, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.7px;
+  line-height         : 38.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .a08003 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 28.32%;
+  height              : 16px;
+  width               : 11.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.08%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 16.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time3 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 28.32%;
+  height              : 5.59%;
+  width               : 4.83%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time3 .ovalcopy23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time3 .timeicon3 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.00%;
+  top                 : 25.00%;
+  height              : 31.25%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time3 .timeicon3 .rectangle7 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time3 .timeicon3 .rectanglecopy3 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  bottom              : -40.00%;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 40.00%;
+  border-radius       : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36violet {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 29.02%;
+  height              : 12.59%;
+  width               : 10.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36violet .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36violet .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 83.33%;
+  position            : absolute;
+  margin              : 0;
+  left                : 8.33%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36violet .v {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 9px);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(227, 207, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .magenta1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 8.39%;
+  height              : 19px;
+  width               : 19.94%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .a24 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 0px;
+  height              : 38px;
+  width               : 5.74%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(216, 249, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.7px;
+  line-height         : 38.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .a08004 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 16px;
+  width               : 11.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.08%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 16.0px;
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time4 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 5.59%;
+  width               : 4.83%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.82%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time4 .ovalcopy24 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time4 .timeicon4 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.00%;
+  top                 : 25.00%;
+  height              : 31.25%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time4 .timeicon4 .rectangle8 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .icons16icons16time4 .timeicon4 .rectanglecopy4 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  bottom              : -40.00%;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 40.00%;
+  border-radius       : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36white {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0.35%;
+  height              : 12.59%;
+  width               : 10.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36white .background3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36white .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 18px);
+  height              : 36px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 15px);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .inks .inks2 .inks36ink36white .w {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 19.44%;
+  height              : 19px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 10px);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(67, 67, 67, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbyconsumables .substrate {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 22.81%;
+  height              : 8.17%;
+  width               : 99.70%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .substrate .substratecontent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.70%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .substrate .substratecontent .substratelongname {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 50.60%;
+  position            : absolute;
+  margin              : 0;
+  left                : 18.07%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.35px;
+  line-height         : 19.0px;
+}
+.supplies .listbyconsumables .substrate .substratecontent .a25 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 0px;
+  height              : 38px;
+  width               : 5.72%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(216, 249, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.7px;
+  line-height         : 38.0px;
+}
+.supplies .listbyconsumables .substrate .substratecontent .a08005 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 16px;
+  width               : 11.14%;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.30%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(216, 235, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 16.0px;
+}
+.supplies .listbyconsumables .substrate .substratecontent .icons16icons16time5 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 37.21%;
+  width               : 4.82%;
+  position            : absolute;
+  margin              : 0;
+  left                : 18.07%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .substrate .substratecontent .icons16icons16time5 .ovalcopy25 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .substrate .substratecontent .icons16icons16time5 .timeicon5 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25.00%;
+  top                 : 25.00%;
+  height              : 31.25%;
+  width               : 31.25%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .substrate .substratecontent .icons16icons16time5 .timeicon5 .rectangle10 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .substrate .substratecontent .icons16icons16time5 .timeicon5 .rectanglecopy5 {
+  background-color    : rgba(115, 183, 255, 1.0);
+  bottom              : -40.00%;
+  height              : 100%;
+  width               : 20.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 40.00%;
+  border-radius       : 0px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+}
+.supplies .listbyconsumables .substrate .substratecontent .icons16icons16substratein1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12.79%;
+  height              : 74.42%;
+  width               : 9.94%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .listbyconsumables .substrate .substratecontent .icons16icons16substratein1 .icon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.supplies .listbyconsumables .substrate .substratecontent .icons16icons16substratein1 .export {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 96.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.52%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 682px;
+  height              : 76px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 245px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 682px;
+  height              : 76px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.supplies .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 644px;
+  height              : 33px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

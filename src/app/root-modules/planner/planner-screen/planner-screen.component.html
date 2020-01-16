@@ -1,0 +1,44 @@
+<div class="bg">
+
+    <div class="shifts-area">
+        <img src="/assets/images/general/arrow-left.svg"/>
+        <div id="shift-details" class="shift-details">Morning Shift - Mon 27, May 08:00 - 18:00</div>
+        <img src="/assets/images/general/arrow-right.svg"/>
+        <div class="supplies">
+            <app-hp-button-control id="supplies-btn" text="Supplies" (click)="openShiftSupplies()"></app-hp-button-control>
+            <div id="supplies-popup" class="shift-supplies-popup" *ngIf="isShiftSuppliesPopupOpen" appAutoFocus (focusout)="closeShiftSupplies()" tabindex="1">
+                <app-shift-supplies></app-shift-supplies>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="planners-area">
+        <div id="leftRuler">
+            <app-vertical-ruler-left></app-vertical-ruler-left>
+        </div>
+
+        <div class="planner-slots-list">
+            <app-planner-slots-list id="planner-list"></app-planner-slots-list>
+        </div>
+
+        <div [style.width.px]="isJobsListExpanded? 60 : 278"></div>
+
+        <div id="rightRuler">
+            <app-vertical-ruler-right></app-vertical-ruler-right>
+        </div>
+
+        <div class="jobs-list">
+
+            <div id="expander" class="job-list-expander" (click)="toggleListExpanded()">
+                <img src="/assets/images/general/grabber.svg" />
+            </div>
+
+            <div [hidden]="!isJobsListExpanded">
+                <app-jobs-list id="jobs-list"></app-jobs-list>
+            </div>
+
+        </div>
+    </div>
+</div>

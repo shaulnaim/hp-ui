@@ -1,0 +1,48 @@
+<div [ngSwitch]="pressStateEntity?.PressState">
+
+    <div *ngSwitchCase="pressStatesSwitchCaseValues.Off" id="OffState">
+        <img class="press-state-img" src="/assets/images/press-control/press-state/Off.svg" />
+        <div><label class="press-state-label">Off</label></div>
+    </div>
+
+    <div *ngSwitchCase="pressStatesSwitchCaseValues.Service" id="ServiceState">
+        <img class="press-state-img" src="/assets/images/press-control/press-state/Off.svg" />
+        <div><label class="press-state-label">Service</label></div>
+    </div>
+
+    <div *ngSwitchCase="pressStatesSwitchCaseValues.Init" id="InitState">
+        <img class="press-state-img" src="/assets/images/press-control/press-state/Off.svg" />
+        <div><label class="press-state-label">Init</label></div>
+    </div>
+
+    <div *ngSwitchCase="pressStatesSwitchCaseValues.Recovery" id="RecoveryState">
+        <img class="press-state-img" src="/assets/images/press-control/press-state/Off.svg" />
+        <div><label class="press-state-label">Recovery</label></div>
+    </div>
+
+    <div *ngSwitchCase="pressStatesSwitchCaseValues.Standby" id="StandbyState">
+        <img class="press-state-img" src="/assets/images/press-control/press-state/Standby.svg" />
+        <div><label class="press-state-label">Standby</label></div>
+    </div>
+
+    <div *ngSwitchCase="pressStatesSwitchCaseValues.GetReady" id="GetReadyState">
+        <img class="press-state-img" src="/assets/images/press-control/press-state/Getting_Ready.svg" />
+        <div><label class="press-state-label">Getting ready</label></div>
+    </div>
+
+    <div *ngSwitchCase="pressStatesSwitchCaseValues.Ready" id="ReadyState">
+        <img class="press-state-img" src="/assets/images/press-control/press-state/Ready.svg"/>
+        <div><label class="press-state-label">Ready</label></div>
+    </div>
+
+    <div *ngSwitchCase="pressStatesSwitchCaseValues.Pause" id="PauseState">
+        <img class="press-state-img" src="/assets/images/press-control/press-state/Ready.svg"/>
+        <div><label class="press-state-label">Pause</label></div>
+    </div>
+
+    <div *ngSwitchCase="pressStatesSwitchCaseValues.Print" id="PrintState">
+      <img class="press-state-img" src="/assets/images/press-control/press-state/Printing.svg"/>
+      <div><label class="press-state-label">Print</label></div>
+    </div>
+
+</div>

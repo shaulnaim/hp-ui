@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="161px" viewBox="0 0 80 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="64" height="145" rx="8"></rect>
+        <filter x="-20.3%" y="-7.6%" width="140.6%" height="117.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4" transform="translate(8.000000, 6.000000)">
+            <g id="bg-copy-77">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="#005BB1" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke-opacity="0.7" stroke="#CCE5FF" stroke-width="2" stroke-linejoin="square" fill-opacity="0.3" fill="url(#linearGradient-1)" fill-rule="evenodd" x="1" y="1" width="62" height="143" rx="8"></rect>
+            </g>
+            <path d="M27.852759,61 L46.0785654,61 C47.1831349,61 48.0785654,61.8954305 48.0785654,63 L48.0785654,83 C48.0785654,84.1045695 47.1831349,85 46.0785654,85 L27.852759,85 L27.852759,85 L16.6087512,74.112525 C15.8152231,73.3441586 15.7948255,72.0779929 16.5631919,71.2844648 C16.5923745,71.2543265 16.6224983,71.2251138 16.6535183,71.1968702 L27.852759,61 L27.852759,61 Z M18.8421465,73.4147492 L28.7280987,83 L28.7280987,83 L45.0785654,83 C45.6308502,83 46.0785654,82.5522847 46.0785654,82 L46.0785654,64 C46.0785654,63.4477153 45.6308502,63 45.0785654,63 L28.6898148,63 L28.6898148,63 L18.8645179,71.9578324 C18.456393,72.3299244 18.4271826,72.9624152 18.7992746,73.3705402 C18.813108,73.3857132 18.8274054,73.4004565 18.8421465,73.4147492 Z" id="backSpaceIcon" fill="#D8EBFF" fill-rule="nonzero"></path>
+            <path d="M36.6727571,72.5 L39.5314696,75.3587125 C39.8336223,75.6608652 39.8336223,76.1507515 39.5314696,76.4529042 C39.2293169,76.7550569 38.7394306,76.7550569 38.4372779,76.4529042 L35.5785654,73.5941917 L35.5785654,73.5941917 L32.7198529,76.4529042 C32.4177002,76.7550569 31.9278139,76.7550569 31.6256613,76.4529042 C31.3235086,76.1507515 31.3235086,75.6608652 31.6256613,75.3587125 L34.4843738,72.5 L34.4843738,72.5 L31.6256613,69.6412875 C31.3235086,69.3391348 31.3235086,68.8492485 31.6256613,68.5470958 C31.9278139,68.2449431 32.4177002,68.2449431 32.7198529,68.5470958 L35.5785654,71.4058083 L35.5785654,71.4058083 L38.4372779,68.5470958 C38.7394306,68.2449431 39.2293169,68.2449431 39.5314696,68.5470958 C39.8336223,68.8492485 39.8336223,69.3391348 39.5314696,69.6412875 L36.6727571,72.5 L36.6727571,72.5 Z" id="Path" fill="#D8EBFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

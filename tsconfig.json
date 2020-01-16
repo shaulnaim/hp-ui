@@ -1,0 +1,83 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "rootDir": ".",
+    "paths": {
+      "hp-common": [
+        "src/app/generic-modules/hp-common/index.ts"
+      ],
+      "hp-config": [
+        "src/app/generic-modules/hp-config/index.ts"
+      ],
+      "hp-services": [
+        "src/app/generic-modules/hp-services/index.ts"
+      ],
+      "hp-base-classes": [
+        "src/app/generic-modules/hp-base-classes/index.ts"
+      ],
+      "press-control": [
+        "src/app/feature-modules/press-control/index.ts"
+      ],
+      "paper-handling": [
+        "src/app/feature-modules/paper-handling/index.ts"
+      ],
+      "hp-ui-elements": [
+        "src/app/generic-modules/hp-ui-elements/index.ts"
+      ],
+      "calibrations": [
+        "src/app/feature-modules/calibrations/index.ts"
+      ],
+      "printing": [
+        "src/app/feature-modules/printing/index.ts"
+      ],
+      "calibrations-api": [
+        "src/app/generated-modules/bl/calibrations-api/index.ts"
+      ],
+      "common-api": [
+        "src/app/generated-modules/bl/common-api/index.ts"
+      ],
+      "paper-handling-api": [
+        "src/app/generated-modules/bl/paper-handling-api/index.ts"
+      ],
+      "press-control-api": [
+        "src/app/generated-modules/bl/press-control-api/index.ts"
+      ],
+      "printing-api": [
+        "src/app/generated-modules/bl/printing-api/index.ts"
+      ],
+      "planner-api":[
+         "src/app/generated-modules/app/planner-api/index.ts"
+      ],
+      "common": [
+        "src/app/feature-modules/common/index.ts"
+      ],
+      "inspection-root": [
+        "src/app/root-modules/inspection/index.ts"
+      ],
+      "dev-root": [
+        "src/app/root-modules/dev/index.ts"
+      ],
+      "monitor-root": [
+        "src/app/root-modules/monitor/index.ts"
+      ],
+      "planner-root": [
+        "src/app/root-modules/planner/index.ts"
+      ],
+    }
+  }
+}

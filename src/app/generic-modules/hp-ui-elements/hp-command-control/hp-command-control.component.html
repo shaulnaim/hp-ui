@@ -1,0 +1,6 @@
+ <div>
+  <button [ngClass]="commandButtonClassName" [id]="commandButtonClassName" (click)="activate()" [disabled]="!command?.Availability.IsAvailable"></button>
+  <div>
+    <label class="regular-label">{{getLabel()}}</label>
+  </div>
+</div>

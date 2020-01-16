@@ -1,0 +1,14 @@
+<div>
+    <button [ngClass]="operationButtonClassName" [id]="operationButtonClassName" (click)="start()" [disabled]="!operationAdapter.operation?.StartAvailability.IsAvailable"></button>
+
+    <div [ngSwitch]="operationAdapter.operation?.State">
+        <label *ngSwitchCase="operationStatesSwitchCaseValues.Idle" class="regular-label" id="operationStateIdle">Idle</label>
+        <label *ngSwitchCase="operationStatesSwitchCaseValues.Starting" class="regular-label" id="operationStateStarting">Starting</label>
+        <label *ngSwitchCase="operationStatesSwitchCaseValues.InProgress" class="regular-label" id="operationStateInProgress">In Progress</label>
+        <label *ngSwitchCase="operationStatesSwitchCaseValues.Stopping" class="regular-label" id="operationStateStopping">Stopping</label>
+        <label *ngSwitchCase="operationStatesSwitchCaseValues.Interrupted" class="regular-label" id="operationStateInterrupted">Interrupted</label>
+        <label *ngSwitchCase="operationStatesSwitchCaseValues.Failed" class="regular-label" id="operationStateFailed">Failed</label>
+        <label *ngSwitchCase="operationStatesSwitchCaseValues.Succeeded" class="regular-label" id="operationStateSucceeded">Succeeded</label>
+    </div>
+    <button [ngClass]="stopOperationButtonClassName" [id]="stopOperationButtonClassName" (click)="stop()" [disabled]="!operationAdapter.operation?.StopAvailability.IsAvailable"></button>
+</div>

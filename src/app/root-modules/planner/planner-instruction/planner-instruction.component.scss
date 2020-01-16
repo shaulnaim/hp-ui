@@ -1,0 +1,28 @@
+@import "./../planner.scss";
+
+.job-instruction {
+  @include horizontal-container;
+  height: 40px;
+  align-items: center;
+  background-image: url("/assets/images/press-control/jobsList/instruction-bg.png");
+
+  &__description {
+    @include kedem-body-warning-small;
+    margin-left: $margin-left-job-list-content;
+  }
+
+  &__action {
+    @include horizontal-container;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  &__action-text {
+    @include kedem-body-warning-small;
+    margin-right: 8px;
+  }
+
+  &__action-icon {
+    margin-right: 19px;
+  }
+}

@@ -1,0 +1,16 @@
+<div class="job">
+  <div class="container">
+    <div id="thumbnail" class="job__thumbnail">
+        <img src="/assets/images/press-control/jobsList/thumnail-1.png" />
+    </div>
+    <div id="name" class="job__name">{{job.JobDetails.Name}}</div>
+  </div>
+
+  <div class="container">
+      <app-hp-label-icon-control id="length" class="job__length" [text]="job.JobDetails.Length"
+        iconSrc="/assets/images/press-control/jobsList/length.svg"></app-hp-label-icon-control>
+
+      <app-hp-label-icon-control id="substrate" class="job__substrate" [text]="job.SubstrateName"
+        iconSrc="/assets/images/press-control/jobsList/substrate-out.svg"></app-hp-label-icon-control>
+      </div>
+</div>

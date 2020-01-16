@@ -1,0 +1,94 @@
+@import "./../printing.scss";
+
+.printed-job {
+  width: 947px;
+  height: 120px;
+  @include horizontal-container;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__thumbnail {
+    width: 192px;
+    height: 120px;
+    border-radius: 8px;
+    float: left;
+  }
+
+  &__details {
+    @include vertical-container;
+    justify-content: flex-end;
+    align-content: flex-start;
+    margin-left: 24px;
+  }
+
+  &__status {
+    @include body-state;
+    height: 19px;
+  }
+
+  &__name {
+    @include title-1;
+    margin-top: 8px;
+    height: 30px;
+  }
+
+  &__progress {
+    margin-top: 12px;
+  }
+
+  &__time {
+    @include horizontal-container;
+  }
+
+  &__printed-time {
+    @include label-70;
+  }
+
+  &__total-time {
+    @include label-70;
+    opacity: 0.5;
+  }
+
+  &__time-separator {
+    @include label-70;
+    opacity: 0.5;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+
+  &__remaining-time {
+    @include label-70;
+    margin-left: auto;
+  }
+
+  &__docking-buffer {
+    flex: 1;
+  }
+
+  &__progress-in-meters {
+    @include vertical-container;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__progress-in-meters-details {
+    @include horizontal-container;
+    align-items: flex-end;
+  }
+
+  &__meters-printed {
+    @include kedem-indication-primary-x-large;
+    margin-right: 7.5px;
+    margin-bottom: 0px;
+  }
+
+  &__meters-total {
+    @include kedem-headline-headline-4;
+    opacity: 0.7;
+    margin-bottom: 0px;
+  }
+
+  &__length-in-meters-label {
+    @include label-100;
+  }
+}

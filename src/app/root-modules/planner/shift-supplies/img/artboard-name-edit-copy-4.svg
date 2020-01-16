@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="48px" viewBox="0 0 127 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="50%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#73B7FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#73B7FF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="127" height="48" rx="8"></rect>
+        <filter x="-5.1%" y="-13.5%" width="110.2%" height="127.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="3" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.0470588235   0 0 0 0 0.0980392157  0 0 0 0.3 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="name-edit-copy-4">
+            <use fill-opacity="0.3" fill="#000C19" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <use fill-opacity="0.3" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <rect stroke="#73B7FF" stroke-width="2" stroke-linejoin="square" x="1" y="1" width="125" height="46" rx="8"></rect>
+        </g>
+    </g>
+</svg>

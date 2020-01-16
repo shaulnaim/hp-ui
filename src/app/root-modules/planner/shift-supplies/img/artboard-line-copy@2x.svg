@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1313px" height="45px" viewBox="0 0 1313 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M22,22.5 L1290.97445,22.5" id="path-1"></path>
+        <filter x="-2.7%" y="-3400.0%" width="105.4%" height="6900.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="6" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.17254902   0 0 0 0 0.57254902   0 0 0 0 1  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="7" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Line-Copy">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use stroke="#3798FF" stroke-width="3" xlink:href="#path-1"></use>
+            <use stroke="#E7F3FF" stroke-width="1" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

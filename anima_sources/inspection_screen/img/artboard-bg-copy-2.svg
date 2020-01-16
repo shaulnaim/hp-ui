@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="292px" height="38px" viewBox="0 0 292 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#CCE5FF" offset="0%"></stop>
+            <stop stop-color="#CCE5FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M7,0 L285,0 C288.865993,-7.10171439e-16 292,3.13400675 292,7 L292,38 L292,38 L0,38 L0,7 C-4.73447626e-16,3.13400675 3.13400675,7.10171439e-16 7,0 Z" id="bg-copy-2" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

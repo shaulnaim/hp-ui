@@ -1,0 +1,11 @@
+.jobs-list{
+
+    &__item{
+        display: flex;
+        margin-bottom: 14px;
+    }
+
+    &__planner-slot{
+        width: 100%;
+    }
+}

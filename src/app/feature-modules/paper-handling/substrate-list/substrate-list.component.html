@@ -1,0 +1,60 @@
+
+
+<div class="margin-top-50">Please insert substrate name:
+  <div aria-orientation="horizontal">
+    <input id="substrate-name-input" [(ngModel)]="substrateNameInput" placeholder="Substrate Name" type="text"  >
+  <button id="add-substrate-btn" (click)="add(substrateNameInput)" [disabled]="!canAddSubstrate(substrateNameInput)">Add</button>
+  </div>
+</div>
+
+
+<div class="margin-top-20" id="substrateList">
+  <div *ngFor="let substrate of substrates;">
+    <div aria-orientation="horizontal">
+      <button (click)="delete(substrate.Name)">X</button>
+      <span class="margin-left-right-5">{{substrate.Name}}</span>
+      <button id="update-substrate-btn" (click)="update(substrate.Name, substrateNameInput)" [disabled]="!canAddSubstrate(substrateNameInput)">Update</button>
+    </div>
+  </div>
+</div>
+
+<button class="margin-top-50" (click)="subscribeToAllSubstratesAgain()">Subscribe to all substrates2</button>
+<button (click)="unsubscribeAll1()">unsubscribe All 1</button>
+<button (click)="unsubscribeAll2()">unsubscribe All 2</button>
+
+<div class="margin-top-50">
+  <div *ngFor="let substrate of substrates2;">
+    <div>{{substrate.Name}}</div>
+  </div>
+</div>
+
+<button class="margin-top-50" (click)="subscribeToFirstSubstrates()">Subscribe to first substrates</button>
+<button (click)="unsubscribeFirst()">Unsubscribe to first substrates</button>
+
+<div class="margin-top-50">
+  <div *ngFor="let substrate of firstSubstrates;">
+    <div>{{substrate.Name}}</div>
+  </div>
+</div>
+
+<button class="margin-top-50" (click)="subscribeToLastSubstrates()">Subscribe to last substrates</button>
+<button (click)="unsubscribeLast1()">Unsubscribe to last substrates</button>
+
+<div class="margin-top-50">
+  <div *ngFor="let substrate of lastSubstrates;">
+    <div>{{substrate.Name}}</div>
+  </div>
+</div>
+
+<button class="margin-top-50" (click)="subscribeToLastSubstrates2()">Subscribe to last substrates2</button>
+<button (click)="unsubscribeLast2()">Unsubscribe to last substrates2</button>
+
+<div class="margin-top-50">
+  <div *ngFor="let substrate of lastSubstrates2;">
+    <div>{{substrate.Name}}</div>
+  </div>
+</div>
+
+
+
+

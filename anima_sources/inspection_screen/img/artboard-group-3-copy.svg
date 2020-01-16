@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="36px" viewBox="0 0 31 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.00559544%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5FCEFF" offset="0%"></stop>
+            <stop stop-color="#5FCEFF" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15.0670554,36 C23.3513266,36 30.0670554,29.2842712 30.0670554,21 C30.0670554,15.7249543 25.5056743,9.10233744 16.3829121,1.1321495 L16.3829046,1.13215809 C15.6292262,0.473699804 14.504867,0.473699871 13.7511887,1.13215825 C4.62843317,9.10234228 0.0670553936,15.7249562 0.0670553936,21 C0.0670553936,29.2842712 6.78278415,36 15.0670554,36 Z" id="path-2"></path>
+        <text id="text-3" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" fill="#C0EBFF">
+            <tspan x="9.83268039" y="26">C</tspan>
+        </text>
+        <filter x="-54.5%" y="-31.6%" width="209.1%" height="163.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3-Copy">
+            <g id="Oval" fill-rule="nonzero">
+                <use fill-opacity="0.5" fill="#5DCDFF" xlink:href="#path-2"></use>
+                <path stroke="#5DCDFF" stroke-width="2" d="M15.0670554,35 C22.7990419,35 29.0670554,28.7319865 29.0670554,21 C29.0670554,16.0969594 24.6478693,9.68079386 15.724988,1.88523375 C15.3481414,1.55600569 14.7859592,1.55600701 14.4091215,1.88523492 C5.48623816,9.68079864 1.06705539,16.0969612 1.06705539,21 C1.06705539,28.7319865 7.3350689,35 15.0670554,35 Z" stroke-linejoin="square" fill="url(#linearGradient-1)" fill-rule="evenodd"></path>
+            </g>
+            <g id="c" fill="#C0EBFF" fill-opacity="1">
+                <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+                <use xlink:href="#text-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

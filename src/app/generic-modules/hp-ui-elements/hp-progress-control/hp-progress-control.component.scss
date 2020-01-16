@@ -1,0 +1,31 @@
+@import "./../hp-ui-elements.scss";
+
+.progress-control__bar-bg {
+  height: 10px;
+  opacity: 0.2;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 6px 0 rgba(0, 0, 0, 0.9);
+  border: solid 1px $color-white;
+  background-color: $color-dark-blue;
+}
+
+.progress-control__oval {
+  width: 24px;
+  height: 22.5px;
+  opacity: 0.9;
+  mix-blend-mode: color-dodge;
+  background-image: radial-gradient(circle at 52% 50%, #cf2d8e, $color-black 58%);
+  margin-top: -16px;
+}
+
+.progress-control__progress {
+  height: 8px;
+  opacity: 0.9;
+  border-radius: 4px;
+  box-shadow: 0 0 6px 5px rgba(44, 146, 255, 0.7), inset 0 0 0 1px $color-icons;
+  border: solid 1px $color-blue;
+  background-color: $color-primary-1;
+  margin-top: -9px;
+  margin-left: 1px;
+  top: 1px;
+}

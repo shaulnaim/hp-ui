@@ -1,0 +1,100 @@
+<div class="container-div">
+
+  <div>
+      <app-press-state></app-press-state>
+  </div>
+  <div class="go-to-standby-div" [hidden]="isGoToStandByHidden">
+      <command-control [commandModel]= "goToStandbyCommandModel" label='Go to Standby' commandButtonClassName='go-to-standby-command-button'></command-control>
+  </div>
+  <div class="get-ready-div" [hidden]="isGetReadyHidden">
+      <operation-control [operationAdapter]="getReadyOperationAdapter" operationButtonGroup="getReadyGroup" operationButtonClassName="get-ready-operation-button" stopOperationButtonClassName="stop-get-ready-operation-button"></operation-control>
+  </div>
+  <div class="print-div">
+      <operation-control [operationAdapter]= "printOperationAdapter" label="Print" operationButtonGroup="printGroup" operationButtonClassName="print-operation-button" stopOperationButtonClassName="stop-print-operation-button"></operation-control>
+  </div>
+<div class="setup-div">
+<app-setup-info></app-setup-info>
+  </div>
+
+
+
+
+</div>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+<div id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <label class="nav-link" id="open-substrate-list" (click)="toggleSubstrateList()">Substrate List</label>
+    </li>
+    <li class="nav-item dropdown">
+      <label class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Wizards
+      </label>
+      <div id="WizardsList" class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <label class="dropdown-item" id="auto-bias-dropdown-btn" data-toggle="modal" data-target="#Modal" (click)="openAutoBiasWizard()">Auto Bias</label>
+        <label class="dropdown-item" id="stir-and-cleaner-dropdown-btn" data-toggle="modal" data-target="#Modal" (click)="openStiRAndCleanerWizard()">StiR & Cleaner</label>
+        <!--<label class="dropdown-item" id="manual-lph-focus-dropdown-btn" data-toggle="modal" data-target="#Modal" (click)="openManualLphFocusWizard()">LPH Manual Focus</label>-->
+      </div>
+    </li>
+    <li class="nav-item">
+      <label class="nav-link" id="open-error-events" (click)="toggleErrorEvents()">Error Events</label>
+    </li>
+  </ul>
+</div>
+</nav>
+
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true" data-backdrop="static" *ngIf="showAutoBiasWizard">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLabel">Auto Bias Wizard</h5>
+      </div>
+      <div class="modal-body">
+        <app-auto-bias (onClose)="closeAutoBiasWizard()"></app-auto-bias>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true" data-backdrop="static" *ngIf="showManualLphFocusWizard">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLabel">LPH Manual Focus Calibration Wizard</h5>
+      </div>
+      <div class="modal-body">
+        <app-manual-lph-focus (onClose)="closeManualLphFocusWizard()"></app-manual-lph-focus>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true" data-backdrop="static" *ngIf="showStiRAndCleanerWizard">
+  <div class="modal-dialog" style="max-width:550px" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLabel">StiR & Clenaer</h5>
+      </div>
+      <div class="modal-body">
+        <app-stir-cleaner-container (onClose)="closeStiRAndCleanerWizard()"></app-stir-cleaner-container>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bottom-left">
+  <app-exception-control></app-exception-control>
+  <app-last-error-event></app-last-error-event>
+</div>
+
+<div *ngIf="showSubstrateList" class="substrate-list">
+  <app-substrate-list></app-substrate-list>
+</div>
+
+
+<div *ngIf="showErrorEvents" class="error-events">
+<app-error-events></app-error-events>
+</div>
+
